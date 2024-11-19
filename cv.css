@@ -1,0 +1,163 @@
+
+Proyecto final - Taller de Programación web
+Agustina Avilés
+•
+28 oct (Última modificación: 14 nov)
+100 puntos
+Fecha de entrega: Hoy
+
+Proyecto final Pweb 2024.pdf
+PDF
+Comentarios de la clase
+Tu trabajo
+Entregado
+
+cv.css
+Hoja de estilo
+
+cv.html
+HTML
+
+fotoperfil.png
+Imagen
+Comentarios privados
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #131012;
+    color: #333;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.curriculum {
+    width: 80%;
+    margin: 20px auto;
+    background: #E5E5EA;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.foto-perfil img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #7A288A;
+    margin-right: 20px;
+}
+
+.informacion h1 {
+    font-size: 4em;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.informacion .titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: #7A288A;
+    margin-top: 5px;
+}
+
+.informacion .descripcion {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #7A288A;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.habilidades ul {
+    list-style-type: none;
+}
+
+.habilidades li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.trabajo {
+    margin-bottom: 25px;
+}
+
+.trabajo h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: #7A288A;
+}
+
+.trabajo p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    margin-top: 5px;
+    color: #666;
+}
+
+.btn {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to top, #34004c, #7A288A, #995c85);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-left: 430px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.btn span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+}
+
+.btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+    top: -100%;
+}
+
+.btn:hover .btn-text-two {
+    top: 50%;
+}
